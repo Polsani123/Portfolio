@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+html{
+   scroll-behavior: smooth;
+}
+.profile {
+   padding: 30px;
+   text-align: center;
+   background-color: #ffffff;
+   text-decoration: wavy;
+}
+
+.awards {
+   padding: 20px;
+   background-color: #f7fbff;
+   font-size: 24px;
+   padding: 20px;
+   font-size: 20px;
+   font-family: monospace;
+   font-weight: bold;
+   text-align: center;
+   align-content: center;
+   
+}
+
+
+
+.bio {
+
+   padding: 20px;
+   background-color: rgb(253, 253, 253);
+   text-align: center;
+   align-content: center;
+}
+
+
+.image {
+   height: 50vh;
+   width: 50vh;
+   
+
+}
+
+.heading {
+   background-color: rgb(159, 195, 195);
+   padding: 20px;
+   font-size: 30px;
+   font-family: monospace;
+   font-weight: bold;
+   text-align: center;
+   align-content: center;
+   height: 10vh;
+   width: cover;
+  
+  
+}
+.paragraph{
+    padding: 20px;
+    background-color: #bdc5cd;
+}
+.coloum{
+   font-size: 20px;
+   padding: 20px;
+   font-family: monospace;
+   font-weight: bold;
+   background-color: beige;
+   margin: 15px;
+   border: 10px;
+   border-radius: 50px;
+   text-shadow:  3px 3px 5px rgba(0, 0, 0, 0.5);
+   
+   
+
+}
+.link{
+   padding: 20px;
+   height: 10px;
+   width: 20px;
+   font-size: 24px;
+   font-weight: bold;
+   box-shadow: #32bee1;
+
+}
+.PROJECTS{
+   height: 10vh;
+  
+   background-color: rgb(144, 160, 155);
+
+}
+.icons:hover{
+   justify-content: space-between;   
+
+}
+.bg{
+   height: 50vh;
+   width: cover;
+   background-color: #32bee1;
+}
+.main{
+   height: 15cm;
+   width: 15cm;
+   margin-top: 30px;
+}
+.name{
+   font-family: 'Courier New', Courier, monospace;
+   text-wrap:  ;
+   font-size: 24px;
+   font-weight: bolder;
+   text-align: center;
+}.about{
+   text-align: left;
+   margin-left: 20px;
+}
+.name-id{
+   font-size:40px;
+   font-family:"caveat";
+   font-weight: bold;
+   justify-content: center;
+   position: relative;
+   padding:  20px;
+}
+.name-pic{
+   font-size: 24px;
+   font-family: "Playfair Display SC";
+   font-weight: bold;
+   justify-content: center;
+   position: relative;
+
+
+}
+.button{
+  
+   justify-content: center;
+   align-content: center;
+   height: 20px;
+   width: 20px;
+}
+.project {
+   width: 20%;
+   margin: 15px 0;
+   background-color: white;
+   padding: 15px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+.project-gallery {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.body{
+   height: auto;
+   width:200vh;
+}
+#projects {
+   padding: 50px;
+   text-align: center;
+}
+.project img {
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+/* Footer styles */
+.footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #004578;
+   color: white;
+   font-size: 0.9rem;
+   width: auto;
+   height: 45px;
+}
